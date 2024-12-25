@@ -143,21 +143,33 @@ public class Main {
 ```
  ## mysql-connector
 ```
-<dependency>
-      <groupId>com.mysql</groupId>
-      <artifactId>mysql-connector-j</artifactId>
-      <version>8.4.0</version>
-</dependency>
+<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+	<dependency>
+		<groupId>com.mysql</groupId>
+      		<artifactId>mysql-connector-j</artifactId>
+      		<version>8.4.0</version>
+	</dependency>
 ```
 
 ## hibernate-core
 ```
 <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
-<dependency>
+	<dependency>
 	    <groupId>org.hibernate</groupId>
 	    <artifactId>hibernate-core</artifactId>
 	    <version>6.0.0.Final</version>
-</dependency>
+	</dependency>
+```
+### jakarta.servlet-api
+```
+ <!-- https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
+	<dependency>
+	    <groupId>jakarta.servlet</groupId>
+	    <artifactId>jakarta.servlet-api</artifactId>
+	    <version>6.0.0</version>
+	    <scope>provided</scope>
+	</dependency>
+
 ```
 
 ## End
